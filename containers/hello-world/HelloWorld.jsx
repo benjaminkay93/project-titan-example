@@ -1,5 +1,6 @@
 import React from 'react';
-import fetcher from 'fetcher';
+import fetcher from './fetcher';
+import formatPageMetadata from './formatPageMetadata';
 
 const HelloWorld = ({ data: name }) => (
   <div>
@@ -8,5 +9,6 @@ const HelloWorld = ({ data: name }) => (
 );
 
 HelloWorld.fetcher = fetcher;
+HelloWorld.formatPageMetadata = formatPageMetadata
 
 export default HelloWorld;
