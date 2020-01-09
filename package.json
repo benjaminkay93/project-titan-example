@@ -2,11 +2,7 @@
   "name": "project-titan-example",
   "version": "0.1.0",
   "dependencies": {
-    "@titan/cli": "0.1.0",
-    "@titan/document-meta": "0.1.0",
-    "@titan/document-state": "0.1.0",
-    "@titan/page-content": "0.1.0",
-    "@titan/state": "0.1.0",
+    "titan": "0.1.0",
     "react": "^16.12.0"
   },
   "scripts": {

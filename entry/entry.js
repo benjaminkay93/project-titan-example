@@ -1,8 +1,8 @@
 import React from 'react';
-import { PageContent } from '@titan/page-content';
-import { DocumentStateProvider, useDocumentState } from '@titan/state';
-import DocumentMeta from '@titan/document-meta';
-import { pageReducer } from '@titan/document-state';
+import PageContent from 'titan/page-content';
+import { DocumentStateProvider, useDocumentState } from 'titan/state';
+import DocumentMeta from 'titan/document-meta';
+import pageReducer from 'titan/document-state';
 
 const DocumentMetaWrapper = () => {
   const [
